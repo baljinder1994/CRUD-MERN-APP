@@ -1,0 +1,96 @@
+.dashboard-container{
+  padding:20px;
+  max-width:1200px;
+  margin:0 auto
+}
+
+.dashboard-header{
+  text-align: center;
+}
+
+.top-container{
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-content{
+  width:30%;
+  padding-right:20px
+}
+.form-input{
+  margin-bottom: 15px;
+  border:1px solid #ddd
+}
+
+.form-input{
+  margin-bottom: 15px;
+  width:100%;
+  padding:10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.form-label{
+  display:block;
+  margin-bottom: 5px;
+}
+.form-button{
+  padding:10px 20px;
+  border:none;
+  background-color: #007bff;
+  color:white;
+  cursor: pointer;
+  border-radius: 5px;
+
+}
+.total-entries-container{
+  width:20%;
+  padding:20px;
+  border:1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+.chart-container{
+  width:50%;
+  padding-right:20px
+}
+
+.chart{
+  width:100%;
+  height:300px
+}
+
+.data-able-container{
+  margin-top: 20px;
+}
+
+.data-table{
+  width:100%;
+  border-collapse: collapse;
+}
+
+.data-table th,
+.data-table td{
+  border:1px solid #ddd;
+  padding:12px
+}
+
+.edit-button{
+  padding:5px 10px;
+  border: none;
+  background-color: #ffc107;
+  color:#fff;
+  cursor: pointer;
+  margin-right:10px;
+  border-radius: 4px;
+}
+
+.delete-button{
+  padding:5px 10px;
+  border: none;
+  background-color:red;
+  color:#fff;
+  cursor: pointer;
+  margin-right:10px;
+  border-radius: 4px;
+}
